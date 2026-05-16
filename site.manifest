@@ -1,0 +1,18 @@
+CACHE MANIFEST
+# FOCIS Net offline application cache
+# Version: 20260516-1
+
+CACHE:
+index.html
+js/site.js
+images/favicon.ico
+images/icon-192.png
+images/icon-192-maskable.png
+images/icon-512.png
+images/icon-512-maskable.png
+
+NETWORK:
+https://cdn.jsdelivr.net/*
+
+FALLBACK:
+/ /index.html
