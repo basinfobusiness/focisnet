@@ -39,13 +39,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link active" onclick="navigate('/')">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="courses.html">Courses</a>
+                        <a class="nav-link" onclick="navigate('/browses_courses')">Browse Courses</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" onclick="navigate('/contact')">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -67,6 +67,12 @@
             <li><strong>Community Engagement:</strong> Join our community of educators and students to share ideas, collaborate on projects, and support each other in the learning journey.</li>
         </ul>
     </div>
+    <div class="container mt-4">
+        <h2>Get Involved</h2>
+        <p>Whether you're an educator looking for resources, a student eager to learn, or a volunteer passionate about STEM education, there are many ways to get involved with FOCIS Net. Visit our <a href="contact.html">Contact</a> page to learn more about how you can contribute to our mission.</p>
+    </div>
+    <div id="content"></div>
     <script src="js/site.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
