@@ -11,7 +11,7 @@ document.querySelector('#navbar').innerHTML = `
                         <a class="nav-link active" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="browses_courses.html">Browse Courses</a>
+                        <a class="nav-link" href="browse_courses.html">Browse Courses</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
