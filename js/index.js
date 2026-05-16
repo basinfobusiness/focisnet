@@ -1,4 +1,4 @@
-document.body.innerHTML = `
+document.querySelector('#navbar').innerHTML = `
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">FOCIS Net</a>
